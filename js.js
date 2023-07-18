@@ -10,6 +10,7 @@ logo.append(h1);
 h1.innerText="LOG";
 
 const menu = document.createElement("div");
+menu.id="menu_cab";
 divCabecera.append(menu);
 
 const ul = document.createElement("ul");

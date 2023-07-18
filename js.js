@@ -3,6 +3,7 @@ const divCabecera = document.createElement("div");
 cabecera.append(divCabecera);
 
 const logo = document.createElement("div");
+logo.id="logo";
 divCabecera.append(logo);
 const h1 = document.createElement("h1");
 logo.append(h1);

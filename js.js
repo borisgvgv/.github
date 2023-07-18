@@ -11,4 +11,13 @@ h1.innerText="LOG";
 const menu = document.createElement("div");
 divCabecera.append(menu);
 
-const
+const ul = document.createElement("ul");
+menu.append(ul);
+
+const li =[];
+const txtEnlaces = ["Nuevo", "Pedir", "Detener"];
+for(let i = 0; i < txtEnlaces.length; i++){
+  li[i] = document.createElement("li");
+  ul.append(li[i]);
+  li[i].innerHTML=`<a href="#">${txtEnlaces[i]}</a>`;
+};

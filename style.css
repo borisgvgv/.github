@@ -20,7 +20,6 @@ a{
 #logo{
     display: flex;
     width: 50%;
-    justify-content: end;
 }
 
 #menu_cab{
@@ -30,7 +29,7 @@ a{
 }
 ul{
     display: flex;
-    justify-content: start;
+    justify-content: end;
 }
 
 body{

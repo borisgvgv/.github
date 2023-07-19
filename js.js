@@ -1,6 +1,7 @@
 const cabecera= document.querySelector("body");
 const divCabecera = document.createElement("div");
 cabecera.append(divCabecera);
+divCabecera.id="cab";
 
 const logo = document.createElement("div");
 logo.id="logo";

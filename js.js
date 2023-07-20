@@ -50,11 +50,7 @@ function entrada(titulo, enlace){
 entrada("Nuevo","#");
 entrada("Pedir","#");
 entrada("Detener","#");
-entrada("Entrada1","#");
-entrada("Entrada2","#");
-entrada("Entrada3","#");
-entrada("Entrada4","#");
-entrada("Entrada5","#");
+
 
 
 

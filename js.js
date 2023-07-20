@@ -25,19 +25,31 @@ for(let i = 0; i < txtEnlaces.length; i++){
   li[i].innerHTML=`<a href="#">${txtEnlaces[i]}</a>`;
 };
 
-function entradas(titulo){
-  const seccionEntradas = document.querySelector("body");
+const seccionEntradas = document.querySelector("body");
   const entradas = document.createElement("div");
   seccionEntradas.append(entradas);
   entradas.id="entradas";
+
+function entrada(titulo, enlace){
   const entrada = document.createElement("div");
   entradas.append(entrada);
   entrada.classList.add("entrada");
-  entrada.innerHTML=`<h1>${titulo}</h1>`;
+  const txtEntrada = document.createElement("div");
+  entrada.append(txtEntrada);
+  txtEntrada.classList.add("txtEntrada");
+
+  const h1 = document.createElement("h1");
+  txtEntrada.append(h1);
+  const a = document.createElement("a");
+  h1.append(a);
+  a.innerText = titulo;
+  a.style.color = "#fff";
+  a.target="blank";
+  a.href = enlace;
 }
-entradas("Nuevo");
-entradas("Pedir");
-entradas("Detener");
+entrada("Nuevo","#");
+entrada("Pedir","#");
+entrada("Detener","#");
 
 
 

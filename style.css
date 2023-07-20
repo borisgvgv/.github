@@ -1,39 +1,39 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-li{
+li {
     list-style: none;
+    margin-left: 2%;
 }
 
-a{
-    text-decoration: none ;
+a {
+    text-decoration: none;
     color: green;
 }
 
-#cab{
+#cab {
     display: flex;
     width: 80%;
-    margin:2% auto;
-    
+    margin: 2% auto;
 }
 
-#logo{
+#logo {
     display: flex;
     width: 50%;
 }
 
-#menu_cab{
+#menu_cab {
     display: flex;
     width: 50%;
     align-items: center;
-    background-color: aquamarine;
 }
-ul{
+ul {
     display: flex;
+    width: 100%;
     justify-content: end;
 }
 
-body{
-    background-color: bisque;
+body {
+    background-color: gold;
 }

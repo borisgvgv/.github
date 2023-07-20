@@ -25,7 +25,7 @@ for(let i = 0; i < txtEnlaces.length; i++){
   li[i].innerHTML=`<a href="#">${txtEnlaces[i]}</a>`;
 };
 
-function entradas(){
+function entradas(titulo){
   const seccionEntradas = document.querySelector("body");
   const entradas = document.createElement("div");
   seccionEntradas.append(entradas);
@@ -33,12 +33,11 @@ function entradas(){
   const entrada = document.createElement("div");
   entradas.append(entrada);
   entrada.classList.add("entrada");
-  entrada.innerHTML="<h1>Entrada1</h1>";
+  entrada.innerHTML=`<h1>${titulo}</h1>`;
 }
-entradas();
-entradas();
-entradas();
-
+entradas("Nuevo");
+entradas("Pedir");
+entradas("Detener");
 
 
 

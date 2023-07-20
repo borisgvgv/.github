@@ -37,3 +37,20 @@ ul {
 body {
     background-color: gold;
 }
+/* entradas */
+
+#entradas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 2% auto;
+    align-items: center;
+}
+
+.entrada {
+    display: flex;
+    width: 50%;
+    height: 400px;
+    align-items: end;
+
+}

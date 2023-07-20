@@ -51,6 +51,7 @@ entrada("Nuevo","#");
 entrada("Pedir","#");
 entrada("Detener","#");
 entrada("Entrada1","#");
+entrada("Entrada2","#");
 
 
 

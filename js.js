@@ -37,6 +37,7 @@ function entradas(){
 }
 entradas();
 entradas();
+entradas();
 
 
 

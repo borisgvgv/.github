@@ -6,10 +6,13 @@ li {
     list-style: none;
     margin-left: 2%;
 }
+h1{
+    color: rgb(183, 255, 237);
+}
 
 a {
     text-decoration: none;
-    color: green;
+    color: rgb(183, 255, 237);
 }
 
 #cab {
@@ -35,7 +38,7 @@ ul {
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(59, 59, 59);
 }
 /* entradas */
 
@@ -52,5 +55,6 @@ body {
     width: 50%;
     height: 400px;
     align-items: end;
+    background: linear-gradient(to bottom right, rgb(59, 59, 59), rgb(183, 255, 237));
 
 }

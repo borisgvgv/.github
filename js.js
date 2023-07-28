@@ -25,6 +25,8 @@ for(let i = 0; i < txtEnlaces.length; i++){
   li[i].innerHTML=`<a href="#">${txtEnlaces[i]}</a>`;
 };
 
+// ENTRADAS -------------------------------------
+
 const seccionEntradas = document.querySelector("body");
   const entradas = document.createElement("div");
   seccionEntradas.append(entradas);
